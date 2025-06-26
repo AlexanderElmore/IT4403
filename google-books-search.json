@@ -1,0 +1,826 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 9,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "Wfan6L9RGgYC",
+      "etag": "Pu1KBO0vF1I",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Wfan6L9RGgYC",
+      "volumeInfo": {
+        "title": "The Modern Web",
+        "subtitle": "Multi-device Web Development with HTML5, CSS3, and JavaScript",
+        "authors": [
+          "Peter Gasston"
+        ],
+        "publisher": "No Starch Press",
+        "publishedDate": "2013",
+        "description": "Provides information on Web development for multiple devices, covering such topics as structure and semantics, device APIs, multimedia, and Web apps.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781593274870"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1593274874"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 266,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.4.4.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Wfan6L9RGgYC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Wfan6L9RGgYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=Wfan6L9RGgYC&printsec=frontcover&dq=modern+web&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=Wfan6L9RGgYC&dq=modern+web&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Modern_Web.html?hl=&id=Wfan6L9RGgYC"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Wfan6L9RGgYC&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Provides information on Web development for multiple devices, covering such topics as structure and semantics, device APIs, multimedia, and Web apps."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "6sxNzyRmxE4C",
+      "etag": "Os6+z5Ij5d4",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/6sxNzyRmxE4C",
+      "volumeInfo": {
+        "title": "The Tangled Web",
+        "subtitle": "A Guide to Securing Modern Web Applications",
+        "authors": [
+          "Michal Zalewski"
+        ],
+        "publisher": "No Starch Press",
+        "publishedDate": "2011-11-15",
+        "description": "Modern web applications are built on a tangle of technologies that have been developed over time and then haphazardly pieced together. Every piece of the web application stack, from HTTP requests to browser-side scripts, comes with important yet subtle security consequences. To keep users safe, it is essential for developers to confidently navigate this landscape. In The Tangled Web, Michal Zalewski, one of the world’s top browser security experts, offers a compelling narrative that explains exactly how browsers work and why they’re fundamentally insecure. Rather than dispense simplistic advice on vulnerabilities, Zalewski examines the entire browser security model, revealing weak points and providing crucial information for shoring up web application security. You’ll learn how to: –Perform common but surprisingly complex tasks such as URL parsing and HTML sanitization –Use modern security features like Strict Transport Security, Content Security Policy, and Cross-Origin Resource Sharing –Leverage many variants of the same-origin policy to safely compartmentalize complex web applications and protect user credentials in case of XSS bugs –Build mashups and embed gadgets without getting stung by the tricky frame navigation policy –Embed or host user-supplied content without running into the trap of content sniffing For quick reference, \"Security Engineering Cheat Sheets\" at the end of each chapter offer ready solutions to problems you’re most likely to encounter. With coverage extending as far as planned HTML5 features, The Tangled Web will help you create secure web applications that stand the test of time.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781593274177"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1593274173"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 324,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.7.8.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=6sxNzyRmxE4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=6sxNzyRmxE4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=6sxNzyRmxE4C&printsec=frontcover&dq=modern+web&hl=&cd=2&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=6sxNzyRmxE4C&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=6sxNzyRmxE4C"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 35.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 35.99,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=6sxNzyRmxE4C&rdid=book-6sxNzyRmxE4C&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 35990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 35990000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=6sxNzyRmxE4C&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "In The Tangled Web, Michal Zalewski, one of the world’s top browser security experts, offers a compelling narrative that explains exactly how browsers work and why they’re fundamentally insecure."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "KvVmrgEACAAJ",
+      "etag": "+MPbYZ6W/wo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/KvVmrgEACAAJ",
+      "volumeInfo": {
+        "title": "Modern Web Development",
+        "subtitle": "Understanding Domains, Technologies, and User Experience",
+        "authors": [
+          "Dino Esposito"
+        ],
+        "publisher": "Developer Reference",
+        "publishedDate": "2016",
+        "description": "In Modern Web Development, internationally renowned software developer Dino Esposito introduces a pragmatic, problem-driven, and user-focused approach to designing and building dynamic web solutions. Esposito shows experienced developers and solution architects how to drive more value from Microsoft technologies such as ASP.NET 5, MVC, SignalR, Entity Framework, and Web Forms, by using them in conjunction with other technologies, including Bootstrap, JavaScript, AngularJS, Ajax, JSON, and JQuery.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1509300015"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781509300013"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 0,
+        "printType": "BOOK",
+        "categories": [
+          "Web site development"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=KvVmrgEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=KvVmrgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=KvVmrgEACAAJ&dq=modern+web&hl=&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=KvVmrgEACAAJ&dq=modern+web&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Modern_Web_Development.html?hl=&id=KvVmrgEACAAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=KvVmrgEACAAJ&hl=&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "In Modern Web Development, internationally renowned software developer Dino Esposito introduces a pragmatic, problem-driven, and user-focused approach to designing and building dynamic web solutions."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "trxIEAAAQBAJ",
+      "etag": "jHwCf9goByw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/trxIEAAAQBAJ",
+      "volumeInfo": {
+        "title": "JavaScript for Modern Web Development",
+        "authors": [
+          "Alok Sinha Ranjan, Abhilasha Battewad Ranjit"
+        ],
+        "publisher": "BPB Publications",
+        "publishedDate": "2020-04-28",
+        "description": "Beginner to Expert in Web development with JavaScript: From HTML to React-Redux KEY FEATURES a- Acquire web development skills to build independent applications a- Understand the basics of HTML, CSS, JavaScript, React and Reduxa- Create build beautiful applications using HTML, CSS, JavaScript, React and Reduxa- Learn how to debug and unit test your applications properly to build good end productsa- Follow best practices to write good quality code and build performant applicationsDESCRIPTION This book will take you on a complete journey of learning web development, starting right with the basics. The book begins with the history of web development and JavaScript, how it has evolved over these years, and how it still keeps growing with new features. Next, you will learn the basic pillars of web development - HTML, CSS, and JavaScript. You will learn about the functional, object-oriented programming and asynchronous behaviour, and how JavaScript provides for these. Empowered with the basics, you will proceed to learn the new features of JavaScript, ES2015, and the latest ES2019. Next, you will apply your learning to build a real application to see how the Web takes shape.At the end, you will also have an introductory section on ReactJS, one of the modern frameworks for UI development and also develop a simple weather application using React. You will be introduced to Redux as the state container for React applications. This book will conclude with an introductory look at additional topics which can be taken up to become a professional and in building enterprise level applications.WHAT WILL YOU LEARN By the end of the book, you will be building real web applications to put your knowledge to practice. This book introduces all the concepts to get started with web application development. To further excel in this field, you really need to practice by building a lot many applications, implementing your own ideas or imitating existing websites. Also remember to practice additional examples provided in the code bundle of the book to master this field.WHO THIS BOOK IS FOR This book can be used by people who are completely new to software development and want to get into front-end web development by starting from basics. This book can also be used by JavaScript users for a quick reference to the fundamentals of HTML, CSS, JS, and learn ReactJS with Redux, as well as the new features in JavaScript ES2019.Table of Contents1. History of JS and how it has revolutionized web development2. HTML: Creating Web Content 3. CSS: Making content beautiful4. JavaScript Programming: Making application Interactive5. Functional programming with JavaScript6. Object-Oriented JavaScript7. Asynchronous Programming8. What's new in ES2019 JavaScript9. Building an application with JavaScript10. Debugging JavaScript Applications11. Unit test automation12. Build and Deploy an Application13. JavaScript Best Practices14. Introduction to React15. Building an application with React 16. State Management in React applications17. Debugging, Testing and Deploying React applications18. What is next - for becoming a pro?About the AuthorsAlok Ranjan is a B.Tech in Computer Science and Engineering from IIT Delhi. After graduating in 2001, Alok worked with companies like Newgen, Virtusa, and Convergys before starting his entrepreneurial journey. Abhilasha Sinha is BE Computer Science from Osmania University. After completing her graduation in 2003, she started her career as a Software Engineer with Infosys. She went on to become Senior Technology Architect in a long and fulfilling association of 12 years. Ranjit Battewad has over 8 years of experience in full-stack web and mobile application development. Associated with WalkingTree Technologies since past over 8 years and playing the role of senior technical lead, he has exposure to complex application architecture design and development.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789389328738"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "938932873X"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 436,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=trxIEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=trxIEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=trxIEAAAQBAJ&printsec=frontcover&dq=modern+web&hl=&cd=4&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=trxIEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=trxIEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 9.95,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 9.95,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=trxIEAAAQBAJ&rdid=book-trxIEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 9950000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 9950000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/JavaScript_for_Modern_Web_Development-sample-epub.acsm?id=trxIEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/JavaScript_for_Modern_Web_Development-sample-pdf.acsm?id=trxIEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=trxIEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Beginner to Expert in Web development with JavaScript: From HTML to React-Redux KEY FEATURES a- Acquire web development skills to build independent applications a- Understand the basics of HTML, CSS, JavaScript, React and Reduxa- Create ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "nJrcDgAAQBAJ",
+      "etag": "r/6JFT2cE70",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/nJrcDgAAQBAJ",
+      "volumeInfo": {
+        "title": "Mastering Modern Web Penetration Testing",
+        "authors": [
+          "Prakhar Prasad"
+        ],
+        "publisher": "Packt Publishing Ltd",
+        "publishedDate": "2016-10-28",
+        "description": "Master the art of conducting modern pen testing attacks and techniques on your web application before the hacker does! About This Book This book covers the latest technologies such as Advance XSS, XSRF, SQL Injection, Web API testing, XML attack vectors, OAuth 2.0 Security, and more involved in today's web applications Penetrate and secure your web application using various techniques Get this comprehensive reference guide that provides advanced tricks and tools of the trade for seasoned penetration testers Who This Book Is For This book is for security professionals and penetration testers who want to speed up their modern web application penetrating testing. It will also benefit those at an intermediate level and web developers who need to be aware of the latest application hacking techniques. What You Will Learn Get to know the new and less-publicized techniques such PHP Object Injection and XML-based vectors Work with different security tools to automate most of the redundant tasks See different kinds of newly-designed security headers and how they help to provide security Exploit and detect different kinds of XSS vulnerabilities Protect your web application using filtering mechanisms Understand old school and classic web hacking in depth using SQL Injection, XSS, and CSRF Grasp XML-related vulnerabilities and attack vectors such as XXE and DoS techniques Get to know how to test REST APIs to discover security issues in them In Detail Web penetration testing is a growing, fast-moving, and absolutely critical field in information security. This book executes modern web application attacks and utilises cutting-edge hacking techniques with an enhanced knowledge of web application security. We will cover web hacking techniques so you can explore the attack vectors during penetration tests. The book encompasses the latest technologies such as OAuth 2.0, Web API testing methodologies and XML vectors used by hackers. Some lesser discussed attack vectors such as RPO (relative path overwrite), DOM clobbering, PHP Object Injection and etc. has been covered in this book. We'll explain various old school techniques in depth such as XSS, CSRF, SQL Injection through the ever-dependable SQLMap and reconnaissance. Websites nowadays provide APIs to allow integration with third party applications, thereby exposing a lot of attack surface, we cover testing of these APIs using real-life examples. This pragmatic guide will be a great benefit and will help you prepare fully secure applications. Style and approach This master-level guide covers various techniques serially. It is power-packed with real-world examples that focus more on the practical aspects of implementing the techniques rather going into detailed theory.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781785289149"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1785289144"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 298,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.2.3.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=nJrcDgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=nJrcDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=nJrcDgAAQBAJ&printsec=frontcover&dq=modern+web&hl=&cd=5&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=nJrcDgAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=nJrcDgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 39.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 31.19,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=nJrcDgAAQBAJ&rdid=book-nJrcDgAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 39990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 31190000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=nJrcDgAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This pragmatic guide will be a great benefit and will help you prepare fully secure applications. Style and approach This master-level guide covers various techniques serially."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "2IfDCgAAQBAJ",
+      "etag": "fxZpAYvkh5g",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/2IfDCgAAQBAJ",
+      "volumeInfo": {
+        "title": "JavaScript Frameworks for Modern Web Dev",
+        "authors": [
+          "Tim Ambler",
+          "Nicholas Cloud"
+        ],
+        "publisher": "Apress",
+        "publishedDate": "2015-10-13",
+        "description": "JavaScript Frameworks for Modern Web Dev is your guide to the wild, vast, and untamed frontier that is JavaScript development. The JavaScript tooling landscape has grown and matured drastically in the past several years. This book will serve as an introduction to both new and well established libraries, frameworks, and utilities that have gained popular traction and support from seasoned developers. It covers tools applicable to the entire development stack, both client- and server-side. While no single book can possibly cover every JavaScript library of value, JavaScript Frameworks for Modern Web Dev focuses on incredibly useful libraries and frameworks that production software uses. You will be treated to detailed analyses and sample code for tools that manage dependencies, structure code in a modular fashion, automate repetitive build tasks, create specialized servers, structure client side applications, facilitate horizontal scaling, and interacting with disparate data stores. The libraries and frameworks covered include Bower, Grunt, Yeoman, PM2, RequireJS, Browserify, Knockout, AngularJS, Kraken, Mach, Mongoose, Knex, Bookshelf, Faye, Q, Async.js, Underscore, and Lodash. Written from first-hand experience, you will benefit from the glorious victories and innumerable failures of two experienced professionals, gain quick insight into hurdles that aren't always explicitly mentioned in API documentation or Readmes, and quickly learn how to use JavaScript frameworks and libraries like a Pro. Enrich your development skills with JavaScript Frameworks for Modern Web Dev today.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781484206621"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1484206622"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 502,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.6.5.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=2IfDCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=2IfDCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=2IfDCgAAQBAJ&printsec=frontcover&dq=modern+web&hl=&cd=6&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=2IfDCgAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=2IfDCgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE_AND_RENTAL",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 49.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 39.49,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=2IfDCgAAQBAJ&rdid=book-2IfDCgAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 49990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 39490000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          },
+          {
+            "finskyOfferType": 3,
+            "listPrice": {
+              "amountInMicros": 17500000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 15220000,
+              "currencyCode": "USD"
+            },
+            "rentalDuration": {
+              "unit": "DAY",
+              "count": 90
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/JavaScript_Frameworks_for_Modern_Web_Dev-sample-epub.acsm?id=2IfDCgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/JavaScript_Frameworks_for_Modern_Web_Dev-sample-pdf.acsm?id=2IfDCgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=2IfDCgAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This book will serve as an introduction to both new and well established libraries, frameworks, and utilities that have gained popular traction and support from seasoned developers."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "3R3UDwAAQBAJ",
+      "etag": "081BZjrP47Y",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/3R3UDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Web Application Security",
+        "subtitle": "Exploitation and Countermeasures for Modern Web Applications",
+        "authors": [
+          "Andrew Hoffman"
+        ],
+        "publisher": "O'Reilly Media",
+        "publishedDate": "2020-03-02",
+        "description": "While many resources for network and IT security are available, detailed knowledge regarding modern web application security has been lacking—until now. This practical guide provides both offensive and defensive security concepts that software engineers can easily learn and apply. Andrew Hoffman, a senior security engineer at Salesforce, introduces three pillars of web application security: recon, offense, and defense. You’ll learn methods for effectively researching and analyzing modern web applications—including those you don’t have direct access to. You’ll also learn how to break into web applications using the latest hacking techniques. Finally, you’ll learn how to develop mitigations for use in your own web applications to protect against hackers. Explore common vulnerabilities plaguing today's web applications Learn essential hacking techniques attackers use to exploit applications Map and document web applications for which you don’t have direct access Develop and deploy customized exploits that can bypass common defenses Develop and deploy mitigations to protect your applications against hackers Integrate secure coding best practices into your development lifecycle Get practical tips to help you improve the overall security of your web applications",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781492053088"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1492053082"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 330,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=3R3UDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=3R3UDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=3R3UDwAAQBAJ&printsec=frontcover&dq=modern+web&hl=&cd=7&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=3R3UDwAAQBAJ&dq=modern+web&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Web_Application_Security.html?hl=&id=3R3UDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=3R3UDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This practical guide provides both offensive and defensive security concepts that software engineers can easily learn and apply."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "848sBQAAQBAJ",
+      "etag": "PXovPI2dciE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/848sBQAAQBAJ",
+      "volumeInfo": {
+        "title": "CSS Animations and Transitions for the Modern Web",
+        "authors": [
+          "Steven Bradley"
+        ],
+        "publisher": "Pearson Education",
+        "publishedDate": "2015",
+        "description": "Place of publication transcribed from publisher's website.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780133980509"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0133980502"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 321,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=848sBQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=848sBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=848sBQAAQBAJ&printsec=frontcover&dq=modern+web&hl=&cd=8&source=gbs_api",
+        "infoLink": "http://books.google.com/books?id=848sBQAAQBAJ&dq=modern+web&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/CSS_Animations_and_Transitions_for_the_M.html?hl=&id=848sBQAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=848sBQAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Place of publication transcribed from publisher&#39;s website."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "CCe7DwAAQBAJ",
+      "etag": "Gqx0r2E68eg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/CCe7DwAAQBAJ",
+      "volumeInfo": {
+        "title": "JavaScript Frameworks for Modern Web Development",
+        "subtitle": "The Essential Frameworks, Libraries, and Tools to Learn Right Now",
+        "authors": [
+          "Sufyan bin Uzayr",
+          "Nicholas Cloud",
+          "Tim Ambler"
+        ],
+        "publisher": "Apress",
+        "publishedDate": "2019-10-31",
+        "description": "Enrich your software design skills and take a guided tour of the wild, vast, and untamed frontier that is JavaScript development. Especially useful for frontend developers, this revision includes specific chapters on React and VueJS, as well as an updated one on Angular. To help you get the most of your new skills, each chapter also has a \"further reading\" section. This book will serve as an introduction to both new and well established libraries and frameworks, such as Angular, VueJS, React, Grunt, Yeoman, RequireJS, Browserify, Knockout, Kraken, Async.js, Underscore, and Lodash. It also covers utilities that have gained popular traction and support from seasoned developers and tools applicable to the entire development stack, both client- and server-side. While no single book can possibly cover every JavaScript library of value, JavaScript Frameworks for Modern Web Development focuses on incredibly useful libraries and frameworks that production software uses. You will be treated to detailed analyses and sample code for tools that manage dependencies, structure code in a modular fashion, automate repetitive build tasks, create specialized servers, structure client side applications, facilitate horizontal scaling, and interacting with disparate data stores. What You'll Learn Work with a variety of JavaScript frameworks, such as Angular, Vue, React, RequireJS, Knockout, and more Choose the right framework for different types of projects Employ the appropriate libraries and tools in your projects Discover useful JavaScript development tools such as Grunt, Yeoman, Lodash, etc. Who This Book Is For Web developers of all levels of ability; particularly relevant for front-end developers, server-side coders, and developers interestedin learning JavaScript.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781484249956"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "148424995X"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 555,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.2.2.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=CCe7DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=CCe7DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com/books?id=CCe7DwAAQBAJ&printsec=frontcover&dq=modern+web&hl=&cd=9&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=CCe7DwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=CCe7DwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "US",
+        "saleability": "FOR_SALE_AND_RENTAL",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 54.99,
+          "currencyCode": "USD"
+        },
+        "retailPrice": {
+          "amount": 43.44,
+          "currencyCode": "USD"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=CCe7DwAAQBAJ&rdid=book-CCe7DwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 54990000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 43440000,
+              "currencyCode": "USD"
+            },
+            "giftable": true
+          },
+          {
+            "finskyOfferType": 3,
+            "listPrice": {
+              "amountInMicros": 19250000,
+              "currencyCode": "USD"
+            },
+            "retailPrice": {
+              "amountInMicros": 16750000,
+              "currencyCode": "USD"
+            },
+            "rentalDuration": {
+              "unit": "DAY",
+              "count": 90
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "US",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/JavaScript_Frameworks_for_Modern_Web_Dev-sample-epub.acsm?id=CCe7DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com/books/download/JavaScript_Frameworks_for_Modern_Web_Dev-sample-pdf.acsm?id=CCe7DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=CCe7DwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This book will serve as an introduction to both new and well established libraries and frameworks, such as Angular, VueJS, React, Grunt, Yeoman, RequireJS, Browserify, Knockout, Kraken, Async.js, Underscore, and Lodash."
+      }
+    }
+  ]
+}

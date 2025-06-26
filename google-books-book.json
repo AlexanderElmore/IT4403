@@ -1,4 +1,4 @@
-{
+[{
   "kind": "books#volume",
   "id": "Wfan6L9RGgYC",
   "etag": "KPtaatAhA4I",
@@ -92,4 +92,4 @@
     "accessViewStatus": "SAMPLE",
     "quoteSharingAllowed": false
   }
-}
+}]

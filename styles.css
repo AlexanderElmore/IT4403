@@ -64,7 +64,21 @@ li {
       display: flex;
 }
 
+.mainPage2 {
+      display: flex;
+      flex-direction: column;
+}
+
 .mainContent {
       margin-top: 5px;
       margin-left: 10px;
+}
+
+.mainContent2 {
+      margin-top: 5px;
+      margin-left: 10\0px;
+}
+
+#searchList {
+      font-weight: normal;
 }

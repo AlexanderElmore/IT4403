@@ -1,0 +1,107 @@
+body {
+      background-color: #e6e6e6;
+      margin: 0px;
+      font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+main {
+}
+
+a {
+      text-decoration: none;
+      color: white;
+}
+
+a:hover {
+      color: rgb(0, 255, 225);
+}
+
+a:active {
+      color: rgb(0, 255, 225);
+}
+
+ul {
+      list-style-type:circle;
+      padding-left: 29px;
+      display: flex;
+      justify-content: left;
+      flex-direction: column;
+}
+
+li {
+      margin-bottom: 5px;   
+      font-size: 20px; 
+      font-weight: bold; 
+      text-align: left;
+}
+
+.topbar {
+      height: 45px;
+      background-color: black;
+      color: white;
+      text-align: left;
+      font-size: 35px;
+      padding-left: 20px;
+      padding-bottom: 4px;
+      padding-top: 2px;
+      margin: 0px;
+      border-bottom: 1px solid;
+      border-color: white;
+}
+
+.mainPage{
+      display: flex;
+      flex-direction: row;
+}
+
+.sidebar {
+      width: 150px;
+      background-color: black;      
+      height: calc(100vh - 75px) !important;
+      padding: 10px;
+      border: 1px solid;
+      border-radius: 5px;
+      color: #fff;
+      margin-top: 0px;
+      float: left;
+}
+
+.sidebarTitle {
+      font-size: 17px;
+      font-weight: bold;
+      border-top: 0px;
+      text-align: center;
+      padding-top: 2px;
+}
+
+.sidebarItem {
+      font-weight: normal;
+}
+
+.pageDetails {
+      display: flex;
+      flex-direction: column;
+}
+
+.detailsContainer {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      align-content: space-around;
+}
+
+.mainContent {
+      margin-top: 5px;
+      margin-left: 10px;
+      flex-grow: 1;
+}
+
+.ksuLink {
+      flex-shrink: 1;
+      text-align: center;
+
+}
+
+#searchList {
+      font-weight: normal;
+}

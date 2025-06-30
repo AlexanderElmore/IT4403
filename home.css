@@ -1,0 +1,124 @@
+:root {
+    --header-h: 52px;
+    --sidebar-w: 207px;
+}
+
+body {
+      background-color: #e6e6e6;
+      margin: 0px;
+      font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+main {
+}
+
+a {
+      text-decoration: none;
+      color: white;
+}
+
+a:hover {
+      color: rgb(0, 255, 225);
+}
+
+a:active {
+      color: rgb(0, 255, 225);
+}
+
+ul {
+      list-style-type:circle;
+      padding-left: 29px;
+      display: flex;
+      justify-content: left;
+      flex-direction: column;
+}
+
+li {
+      margin-bottom: 5px;   
+      font-size: 20px; 
+      font-weight: bold; 
+      text-align: left;
+}
+
+.topbar {
+      height: 45px;
+      width: 100%;
+      background-color: black;
+      color: white;
+      text-align: left;
+      font-size: 35px;
+      padding-left: 20px;
+      padding-bottom: 4px;
+      padding-top: 2px;
+      margin: 0px;
+      border-bottom: 1px solid;
+      border-color: white;
+      position: fixed;
+}
+
+.mainPage{
+      display: flex;
+      flex-direction: row;
+}
+
+.sidebar {
+      width: 185px;
+      background-color: black;      
+      min-height: calc(100vh - 75px);
+      padding: 10px;
+      border: 1px solid;
+      border-radius: 5px;
+      color: #fff; 
+      float: left;
+      position: fixed;
+      top: 51px;
+      bottom: 0;
+}
+
+.sidebarTitle {
+      font-size: 17px;
+      font-weight: bold;
+      border-top: 0px;
+      text-align: center;
+      padding-top: 2px;
+}
+
+.sidebarItem {
+      font-weight: normal;
+}
+
+.pageDetails {
+      display: flex;
+      flex-direction: column;
+}
+
+.detailsContainer {
+    margin-top:  var(--header-h);
+    margin-left: var(--sidebar-w);
+    /* optional polish */
+    
+    min-height: calc(100vh - var(--header-h));   /* fill full height */
+    box-sizing: border-box;
+}
+
+.mainContent {
+      margin-top: 5px;
+      margin-left: 10px;
+      flex-grow: 1;
+}
+
+.ksuLink {
+      flex-shrink: 1;
+      text-align: center;
+
+}
+
+.mainContent2 {
+      margin-top: 5px;
+      margin-left: 10\0px;
+}
+
+#results {
+      font-weight: normal;
+      padding-left: 10px;
+}

@@ -26,8 +26,8 @@ $(async function() {
                     <p><strong>Published:</strong> ${b.publishedDate ?? 'Publishing date unknown'}</p>
                     <p><strong>Pages:</strong> ${b.pageCount ?? 'Unknown'}</p>
                     <p><strong>Categories:</strong> ${b.categories?.join(', ') ?? 'Unknown'}</p>
-                    <p><strong>List Price:</strong> $${p.listPrice.amount ?? 'Unknown'}</p>
-                    <p><strong>Retail Price:</strong> $${p.retailPrice.amount ?? 'Unknown'}</p>
+                    <p><strong>List Price:</strong> $${p.listPrice?.amount ?? 'Unknown'}</p>
+                    <p><strong>Retail Price:</strong> $${p.retailPrice?.amount ?? 'Unknown'}</p>
                     <p><strong>Description:</strong> ${b.description ?? 'Description unavailable.'}</p>
                     <p><a href="${b.infoLink}" target="_blank" rel="noopener">View on Google Books</a></p>
                 </div>

@@ -34,16 +34,19 @@ async function showPage(query, page = 1){
 
     const $grid = $('<div>', { class: 'results' });
 
-    (books || []).forEach(({ volumeInfo: b }) => {
+    (books || []).forEach(({ volumeInfo: b, id: i }) => {
+        const id = i;
         const imgSrc = b.imageLinks?.thumbnail
                      || b.imageLinks?.smallThumbnail
                      || placeholder;
 
         $grid.append(`
             <article class="book-card">
-                <img src="${imgSrc}"
-                    loading="lazy">
-                <h3>${b.title}</h3>
+                <a class="book-link" href="bookDetails.html?id=${encodeURIComponent(id)}">
+                    <img src="${imgSrc}"
+                        loading="lazy">
+                    <h3>${b.title}</h3>
+                </a>
                 <p class="author">${(b.authors || ['Unknown author']).join(', ')}</p>
                 <p>${b.publishedDate ?? ''}</p>
             </article>

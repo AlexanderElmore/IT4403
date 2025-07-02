@@ -28,9 +28,16 @@
         </div>
         <div class="detailsContainer">
           <div class="mainContent">
-              <form id="search">
-                  <input type="text" name="search" placeholder="Enter your search terms here"/>
-                  <button type="submit">Go</button>
+              <form id="bookSearch">
+                <input type="text" name="q" placeholder="Search books…" required>
+                <button type="submit">Search</button>
+                <label for="pageSize" class="sr-only">Results per page</label>
+                <select id="pageSize">
+                  <option value="6">6</option>
+                  <option value="12" selected>12</option>
+                  <option value="24">24</option>
+                  <option value="40">40</option>
+                </select>
               </form>
           </div>
           <section id="results"></section>

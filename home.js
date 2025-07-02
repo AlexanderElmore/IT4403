@@ -1,4 +1,4 @@
-const pageSize = 12;
+let pageSize = 12;
 let currentPage = 1;
 let totalItems = 0;
 let lastQuery = '';
@@ -6,8 +6,8 @@ const cache = {};
 
 const placeholder = 'googleBooksPlaceholder.png'
 
-async function fetchBooks(query, page = 1){
-    const key = '${query}|${page}|${pageSize}';
+async function fetchPage(query, page = 1){
+    const key = `${query}|${page}|${pageSize}`;
     if (cache[key]) return cache[key];
 
     const start = (page - 1) * pageSize;
@@ -16,15 +16,13 @@ async function fetchBooks(query, page = 1){
             + `&maxResults=${pageSize}`
             + `&startIndex=${start}`;
 
-    $('#results').html('<p class="loading">Loading...</p>');
-
     try {
         const data = await $.getJSON(url);
         totalItems = data.totalItems ?? 0;
-        cache[key] = data.items ?? [];
-        return cache[key];
+        return (cache[key] = data.items ?? []);
     } catch (err) {
-        $('#results').text('Apologies, Network Error')
+        $('#results').text('Apologies, Network Error');
+        throw err;
     }
 }
 
@@ -32,9 +30,9 @@ async function showPage(query, page = 1){
     lastQuery = query;
     currentPage = page;
 
-    const books = await fetchBooks(query, page);
+    const books = await fetchPage(query, page);
 
-    const $grid = $('<div>', { class: 'book-grid' });
+    const $grid = $('<div>', { class: 'results' });
 
     (books || []).forEach(({ volumeInfo: b }) => {
         const imgSrc = b.imageLinks?.thumbnail
@@ -52,11 +50,13 @@ async function showPage(query, page = 1){
         `);
     });
 
+    /* Build Pager */
     const pages = Math.max(1, Math.ceil(totalItems / pageSize));
-    const $pager = $('<nav class="pager>');
-    const $ul = $('<ul>');
+    
+    const $pager = $('<nav>', { class: "pager" });
+    const $ul = $('<ul>').appendTo($pager);
 
-    const addBtn = (label, p, disables = false) => {
+    const addBtn = (label, p, disabled = false) => {
         $('<li>').append(
             $('<button>', {
                 text: label,
@@ -65,11 +65,23 @@ async function showPage(query, page = 1){
         ).appendTo($ul);
     };
 
+    addBtn('Prev <', page - 1, page === 1);
+
+    let first = Math.max(1, page-2);
+    let last = Math.min(pages, page+2);
+    if(first > 1) addBtn('1', 1);
+    if(first > 2) $('<li>').text("...").appendTo($ul);
+
+    for(let i = first; i <= last; i++) addBtn(String(i), i);
+
+    if (last < pages - 1) $('<li>').text('...').appendTo($ul);
+    if (last < pages) addBtn(String(pages), pages);
+
     addBtn('Next >', page + 1, page === pages);
 
-    $pager.append($ul);
+    $('#results').empty().append($grid, $pager);
 
-    $('#results').empty.append($grid, $pager);
+    window.scrollTo({top: 0, behavior: 'smooth'});
 }
 
 function cacheSizeGuard(maxEntries = 30) {

@@ -1,10 +1,10 @@
 {
     "configurations": [
         {
-            "type": "chrome",
-            "name": "http://localhost:58753",
+            "type":"chrome",
+            "name": "http://127.0.0.1:5500",
             "request": "launch",
-            "url": "http://localhost:58753"
+            "url": "http://127.0.0.1:5500"
         }
     ]
 }

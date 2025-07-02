@@ -122,3 +122,45 @@ li {
       font-weight: normal;
       padding-left: 10px;
 }
+
+.pager {
+      margin: 1.5rem 0 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+}
+
+.pager ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      align-items: center;
+}
+
+.pager button {
+      padding: 0.4rem 0.8rem;
+      border: 1px solid #888;
+      border-radius: 0.4rem;
+      background: #e6e6e6;
+      cursor: pointer;
+      font: inherit;
+}
+
+.pager button[disabled] {
+      background: #333;
+      color: #fff;
+      cursor: default;
+      border-color: #333;
+}
+
+.pager li button {
+      transition: background .15s;
+}
+
+.pager button:not([disabled]):hover {
+      background: #ccc;
+}

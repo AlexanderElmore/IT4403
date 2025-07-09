@@ -29,7 +29,7 @@ async function fetchPage(query, page = 1){
 async function showDetails(id) {
     $('#details').removeClass('hidden').html('<p class="loading">loading...</p>');
 
-    let url = `https//:www.googleapis.com/books/v1/volumes/${encodeURIComponent(id)}`;
+    let url = `https://www.googleapis.com/books/v1/volumes/${encodeURIComponent(id)}`;
 
     try {
         let data = await $.getJSON(url);

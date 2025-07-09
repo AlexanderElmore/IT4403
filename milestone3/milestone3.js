@@ -1,4 +1,4 @@
-let pageSize = 12;
+let pageSize = 10;
 let currentPage = 1;
 let totalItems = 0;
 let lastQuery = '';
@@ -26,6 +26,42 @@ async function fetchPage(query, page = 1){
     }
 }
 
+async function showDetails(id) {
+    $('#details').removeClass('hidden').html('<p class="loading">loading...</p>');
+
+    let url = `https:www.googleapis.com/books/v1/volumes/${encodeURIComponent(id)}`;
+
+    try {
+        let data = await $.getJSON(url);
+        let b = data.volumeInfo;
+        let p = data.saleInfo;
+
+        const img = b.imageLinks?.thumbnail
+                 || b.imageLinks?.smallThumbnail
+                 || placeholder;
+
+        const html = `
+            <article class="book-details">
+                <img class="cover" src="${img}
+                    onerror="this.onerror=null;this.src='googleBooksPlaceholder.png'">
+                <h2>${b.title}</h2>
+                <p><strong>Author(s):</strong> ${b.authors?.join(', ') ?? 'Author(s) unknown'}</p>
+                <p><strong>Publisher(s):</strong> ${b.authors?.join(', ') ?? 'Unknown'}</p>
+                <p><strong>Published:</strong> ${b.publishedDate ?? 'Publishing date unknown'}</p>
+                <p><strong>Pages:</strong> ${b.pageCount ?? 'Unknown'}</p>
+                <p><strong>Categories:</strong> ${b.categories?.join(', ') ?? 'Unknown'}</p>
+                <p><strong>List Price:</strong> $${p.listPrice?.amount ?? 'Unknown'}</p>
+                <p><strong>Retail Price:</strong> $${p.retailPrice?.amount ?? 'Unknown'}</p>
+                <p><strong>Description:</strong> ${b.description ?? 'Description unavailable.'}</p>
+                <p><a href="${b.infoLink}" target="_blank" rel="noopener">View on Google Books</a></p>
+            </article>`;
+        $('#details').html(html).scrollTop(0);
+    } catch (err) {
+        $('#details').html('<p class="error>Apologies, error loading book!</p>');
+        console.error(err);
+    }
+}
+
 async function showPage(query, page = 1){
     lastQuery = query;
     currentPage = page;
@@ -41,8 +77,8 @@ async function showPage(query, page = 1){
                      || placeholder;
 
         $grid.append(`
-            <article class="book-card">
-                <a class="book-link" href="bookDetails.html?id=${encodeURIComponent(id)}">
+            <article class="book-card" data-id="${i}">
+                <a class="book-link">
                     <img src="${imgSrc}"
                         loading="lazy">
                     <h3>${b.title}</h3>
@@ -54,7 +90,7 @@ async function showPage(query, page = 1){
     });
 
     /* Build Pager */
-    const pages = Math.max(1, Math.ceil(totalItems / pageSize));
+    const pages = Math.min(5, Math.ceil(totalItems / 10));
     
     const $pager = $('<nav>', { class: "pager" });
     const $ul = $('<ul>').appendTo($pager);
@@ -87,6 +123,11 @@ async function showPage(query, page = 1){
     window.scrollTo({top: 0, behavior: 'smooth'});
 }
 
+$('#results').on('click', '.book-card', function () {
+    const volumeId = $(this).data('id');
+    showDetails(volumeId);
+})
+
 function cacheSizeGuard(maxEntries = 30) {
     const keys = Object.keys(cache);
     if (keys.length > maxEntries) delete cache[keys[0]];
@@ -94,12 +135,17 @@ function cacheSizeGuard(maxEntries = 30) {
 
 $('#bookSearch').on('submit', e => {
     e.preventDefault();
+
+    $('#details')
+        .addClass('hidden')
+        .html('<p class="placeholder">Click a book to see details...</p>');
+
     const q = $(e.target).find('[name=q]').val().trim();
     if (q) showPage(q, 1);
 });
 
-$('#pageSize').on('change', function () {
-    pageSize = Number(this.value);
-    cacheSizeGuard();
-    if (lastQuery) showPage(lastQuery, 1);
-});
+// $('#pageSize').on('change', function () {
+//     pageSize = Number(this.value);
+//     cacheSizeGuard();
+//     if (lastQuery) showPage(lastQuery, 1);
+// });

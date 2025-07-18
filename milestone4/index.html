@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Book Management System</title>
+    <link rel="stylesheet" href="milestone4.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://unpkg.com/mustache@4.2.0/mustache.min.js"></script>
+    <script src="templates.js"></script>
+  </head>
+  <body>
+    <main>
+      <div class="mainPage">
+        <div class="topbar">
+        BMS - Book Search
+        </div>
+        <div class="sidebar">
+          <div class="sidebarTitle">Table of Content</div>
+          <ul>
+          <li class="sidebarItem"><a href="../milestone1/milestone1.html">Milestone 1</a></li>
+          <li class="sidebarItem">Milestone 2</li>
+              <ul>
+                  <li class="sidebarItem"><a href="../milestone2/home.html">Home</a></li>
+                  <li class="sidebarItem"><a href="../milestone2/myBookshelf.html">My Bookshelf</a></li>
+              </ul>
+          <li class="sidebarItem"><a href="milestone3.html">Milestone 3</a></li>
+              <ul>
+                  <li class="sidebarItem"><a href="milestone3.html">Book Search</a></li>
+              </ul>
+              <li class="sidebarItem"><a href="../milestone4/index.html">Milestone 4</a></li>
+          </ul>
+        </div>
+        <div class="detailsContainer">
+            <form id="bookSearch">
+              <input type="text" name="q" placeholder="Search books…" required>
+              <button type="submit">Search</button>
+            </form>
+              <button id="viewGrid" class="toggle active" type="button">Grid</button>
+              <button id="viewList" class="toggle" type="button">List</button>
+          <div class="mainContent">
+              
+              <br>
+              <section id="results"></section> 
+
+              <aside id="details" class="hidden">
+                <!-- <p class="placeholder">Click a book to see details...</p> -->
+              </aside>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="milestone4.js"></script>
+  </body>
+</html>
